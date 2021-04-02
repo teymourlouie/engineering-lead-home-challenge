@@ -1,0 +1,5 @@
+app:
+  similarity:
+    metric: levenshtein
+    levenshtein:
+      threshold: 1

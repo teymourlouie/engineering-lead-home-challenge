@@ -1,0 +1,16 @@
+{
+  "properties": [
+    {
+      "name": "app.similarity.metric",
+      "type": "java.lang.String",
+      "description": "Metric that is used to determine similarity of words.",
+      "defaultValue": "levenshtein"
+    },
+    {
+      "name": "app.similarity.levenshtein.threshold",
+      "type": "java.lang.Integer",
+      "description": "Threshold of similarity that is used with Levenshtein metric.",
+      "defaultValue": 1
+    }
+  ]
+}
